@@ -1,0 +1,5 @@
+*.pro
+*.job
+*.b#*
+*.s#*
+.DS_Store
