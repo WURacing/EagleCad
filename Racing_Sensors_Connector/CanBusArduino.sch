@@ -3824,17 +3824,19 @@ uC used in the Arduino&lt;br&gt;
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="CAN_INTERFACE" library="can_transceiver" deviceset="MCP2551-I/P" device=""/>
-<part name="POWER_IN" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM"/>
-<part name="CAN_OUT" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM"/>
 <part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_PDIP" device="" value="328P"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="IN_12" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM"/>
-<part name="IN_34" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
+<part name="PRGM" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
+<part name="PWR" library="SparkFun-Connectors" deviceset="CONN_02" device="POLAR"/>
+<part name="CANH/L" library="SparkFun-Connectors" deviceset="CONN_02" device="POLAR"/>
+<part name="ADC2/3" library="SparkFun-Connectors" deviceset="CONN_02" device="POLAR"/>
+<part name="ADC0/1" library="SparkFun-Connectors" deviceset="CONN_02" device="POLAR"/>
+<part name="ADC4/5" library="SparkFun-Connectors" deviceset="CONN_02" device="POLAR"/>
+<part name="DIO" library="SparkFun-Connectors" deviceset="CONN_02" device="POLAR"/>
 </parts>
 <sheets>
 <sheet>
@@ -3844,8 +3846,8 @@ uC used in the Arduino&lt;br&gt;
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="CAN_COMM" gate="&gt;NAME" x="63.5" y="134.62"/>
-<instance part="GND1" gate="1" x="111.76" y="99.06"/>
-<instance part="SUPPLY1" gate="G$1" x="111.76" y="119.38"/>
+<instance part="GND1" gate="1" x="111.76" y="121.92"/>
+<instance part="SUPPLY1" gate="G$1" x="111.76" y="142.24"/>
 <instance part="GND2" gate="1" x="127" y="121.92"/>
 <instance part="R_2551_RS" gate="G$1" x="134.62" y="129.54"/>
 <instance part="Y1" gate="G$1" x="35.56" y="147.32" rot="R90"/>
@@ -3862,18 +3864,20 @@ uC used in the Arduino&lt;br&gt;
 <instance part="SUPPLY3" gate="G$1" x="142.24" y="83.82"/>
 <instance part="GND4" gate="1" x="142.24" y="71.12"/>
 <instance part="CAN_INTERFACE" gate="A" x="162.56" y="137.16"/>
-<instance part="POWER_IN" gate="G$1" x="167.64" y="78.74" rot="R180"/>
-<instance part="CAN_OUT" gate="G$1" x="231.14" y="142.24" rot="R180"/>
 <instance part="U1" gate="G$1" x="66.04" y="66.04"/>
 <instance part="R1" gate="G$1" x="35.56" y="91.44"/>
-<instance part="C1" gate="G$1" x="111.76" y="106.68"/>
+<instance part="C1" gate="G$1" x="111.76" y="129.54"/>
 <instance part="C2" gate="G$1" x="195.58" y="78.74"/>
 <instance part="CAN_COMM" gate="P" x="208.28" y="81.28"/>
 <instance part="SUPPLY4" gate="G$1" x="195.58" y="91.44"/>
 <instance part="GND7" gate="1" x="195.58" y="68.58"/>
-<instance part="IN_12" gate="G$1" x="127" y="91.44" rot="R180"/>
-<instance part="IN_34" gate="G$1" x="127" y="78.74" rot="R180"/>
-<instance part="J1" gate="J$1" x="147.32" y="58.42" rot="R180"/>
+<instance part="PRGM" gate="J$1" x="147.32" y="58.42" rot="R180"/>
+<instance part="PWR" gate="G$1" x="167.64" y="78.74" rot="R180"/>
+<instance part="CANH/L" gate="G$1" x="231.14" y="142.24" rot="R180"/>
+<instance part="ADC2/3" gate="G$1" x="132.08" y="86.36" rot="R180"/>
+<instance part="ADC0/1" gate="G$1" x="132.08" y="99.06" rot="R180"/>
+<instance part="ADC4/5" gate="G$1" x="132.08" y="73.66" rot="R180"/>
+<instance part="DIO" gate="G$1" x="129.54" y="48.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3978,15 +3982,15 @@ uC used in the Arduino&lt;br&gt;
 <junction x="43.18" y="91.44"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J$1" pin="3"/>
-<wire x1="139.7" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="PRGM" gate="J$1" pin="3"/>
+<wire x1="139.7" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <label x="124.46" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="111.76" y1="101.6" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="124.46" x2="111.76" y2="127" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -4022,8 +4026,8 @@ uC used in the Arduino&lt;br&gt;
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="POWER_IN" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -4048,20 +4052,18 @@ uC used in the Arduino&lt;br&gt;
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="111.76" y1="111.76" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="116.84" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="139.7" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
-<junction x="111.76" y="116.84"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="134.62" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="CAN_INTERFACE" gate="A" pin="VDD"/>
-<wire x1="144.78" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="139.7" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="139.7" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
+<junction x="111.76" y="139.7"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 <wire x1="142.24" y1="78.74" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="POWER_IN" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="AVCC"/>
@@ -4092,20 +4094,19 @@ uC used in the Arduino&lt;br&gt;
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="142.24" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="132.08" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="CAN_OUT" gate="G$1" pin="1"/>
 <pinref part="CAN_INTERFACE" gate="A" pin="CANL"/>
 <wire x1="180.34" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="132.08" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
 <junction x="198.12" y="142.24"/>
 <label x="182.88" y="132.08" size="1.778" layer="95"/>
+<pinref part="CANH/L" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="132.08" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="CAN_OUT" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="CAN_INTERFACE" gate="A" pin="CANH"/>
 <wire x1="180.34" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
@@ -4113,9 +4114,10 @@ uC used in the Arduino&lt;br&gt;
 <wire x1="193.04" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <junction x="205.74" y="139.7"/>
 <label x="182.88" y="129.54" size="1.778" layer="95"/>
+<pinref part="CANH/L" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="OSC1" class="0">
 <segment>
 <pinref part="CAP_2515_OSC1" gate="G$1" pin="1"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
@@ -4127,7 +4129,7 @@ uC used in the Arduino&lt;br&gt;
 <junction x="35.56" y="152.4"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="OSC2" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <pinref part="CAP_2515_OSC2" gate="G$1" pin="1"/>
@@ -4151,35 +4153,36 @@ uC used in the Arduino&lt;br&gt;
 <wire x1="205.74" y1="121.92" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN1" class="0">
+<net name="A0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC0(ADC0)"/>
-<pinref part="IN_12" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="ADC0/1" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="99.06" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN2" class="0">
+<net name="A1" class="0">
 <segment>
-<pinref part="IN_12" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
-<wire x1="119.38" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="ADC0/1" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="96.52" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN3" class="0">
+<net name="A2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC2(ADC2)"/>
-<pinref part="IN_34" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="86.36" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="ADC2/3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IN4" class="0">
+<net name="A3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC3(ADC3)"/>
-<wire x1="91.44" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="83.82" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IN_34" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="ADC2/3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CI_RS" class="0">
@@ -4196,7 +4199,7 @@ uC used in the Arduino&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="91.44" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="58.42" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J$1" pin="2"/>
+<pinref part="PRGM" gate="J$1" pin="2"/>
 <wire x1="139.7" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <label x="124.46" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -4206,9 +4209,44 @@ uC used in the Arduino&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="91.44" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="66.04" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J$1" pin="1"/>
+<pinref part="PRGM" gate="J$1" pin="1"/>
 <wire x1="139.7" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 <label x="124.46" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC4(ADC4/SDA)"/>
+<wire x1="124.46" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="ADC4/5" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="73.66" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
+<wire x1="91.44" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="78.74" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="ADC4/5" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="91.44" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="DIO" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="D4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="91.44" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="58.42" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="DIO" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
