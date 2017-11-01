@@ -1151,6 +1151,7 @@
 <wire x1="35.618984375" y1="32.931996875" x2="35.6336" y2="32.96410625" width="0" layer="21"/>
 <wire x1="35.6336" y1="32.96410625" x2="35.64860625" y2="32.99706875" width="0" layer="21"/>
 <wire x1="35.64860625" y1="32.99706875" x2="35.665128125" y2="33.033365625" width="0" layer="21"/>
+<text x="44.45" y="6.35" size="1.778" layer="22" font="fixed" rot="MR0">Design: Connor Monahan</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
