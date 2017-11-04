@@ -4242,11 +4242,11 @@ uC used in the Arduino&lt;br&gt;
 </net>
 <net name="D4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
-<wire x1="91.44" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="58.42" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="DIO" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="48.26" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PD5(T1)"/>
+<wire x1="111.76" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
