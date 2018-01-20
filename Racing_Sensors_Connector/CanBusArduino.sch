@@ -3729,14 +3729,14 @@ uC used in the Arduino&lt;br&gt;
 <wire x1="-0.508" y1="-1.0922" x2="-0.508" y2="8.7122" width="0.1524" layer="51"/>
 <wire x1="-0.508" y1="8.7122" x2="-7.112" y2="8.7122" width="0.1524" layer="51"/>
 <wire x1="-7.112" y1="8.7122" x2="-7.112" y2="-1.0922" width="0.1524" layer="51"/>
-<pad name="1" x="-7.62" y="7.62" drill="0.9906" shape="square"/>
-<pad name="2" x="-7.62" y="5.08" drill="0.9906"/>
-<pad name="3" x="-7.62" y="2.54" drill="0.9906"/>
-<pad name="4" x="-7.62" y="0" drill="0.9906"/>
-<pad name="5" x="0" y="0" drill="0.9906"/>
-<pad name="6" x="0" y="2.54" drill="0.9906"/>
-<pad name="7" x="0" y="5.08" drill="0.9906"/>
-<pad name="8" x="0" y="7.62" drill="0.9906"/>
+<pad name="1" x="-7.62" y="7.62" drill="0.8128" diameter="1.6256" shape="square"/>
+<pad name="2" x="-7.62" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="3" x="-7.62" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="4" x="-7.62" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="5" x="0" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="6" x="0" y="2.54" drill="0.8128" diameter="1.6256"/>
+<pad name="7" x="0" y="5.08" drill="0.8128" diameter="1.6256"/>
+<pad name="8" x="0" y="7.62" drill="0.8128" diameter="1.6256"/>
 <text x="-8.2042" y="8.4836" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-8.2042" y="8.4836" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-8.3566" y="9.398" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
@@ -3826,8 +3826,8 @@ uC used in the Arduino&lt;br&gt;
 <part name="CAN_INTERFACE" library="can_transceiver" deviceset="MCP2551-I/P" device=""/>
 <part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_PDIP" device="" value="328P"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="PRGM" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
