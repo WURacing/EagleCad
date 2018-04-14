@@ -166,6 +166,8 @@
 <circle x="6.35" y="-15.24" radius="3.4" width="0.1524" layer="20"/>
 <text x="12" y="-2.5" size="1.778" layer="122" rot="MR90">12V</text>
 <text x="14.5" y="-3.5" size="1.778" layer="122" rot="MR90">GND</text>
+<text x="17" y="92" size="1.016" layer="122" rot="MR0">Design By Tony Sancho</text>
+<text x="17" y="89.5" size="1.016" layer="122" rot="MR0">Wash U Racing 2018</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">
