@@ -14679,6 +14679,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="VREF_R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="27"/>
 <part name="VREF_BYP" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="MICRO-SD_CARD_SOCKET" device="" package3d_urn="urn:adsk.eagle:package:38283/1"/>
+<part name="SD_BYP" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -14761,6 +14762,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="VREF_R2" gate="G$1" x="226.06" y="195.58" rot="R90"/>
 <instance part="VREF_BYP" gate="G$1" x="238.76" y="195.58"/>
 <instance part="J1" gate="1" x="581.66" y="-35.56"/>
+<instance part="SD_BYP" gate="G$1" x="538.48" y="-55.88"/>
 </instances>
 <busses>
 </busses>
@@ -15107,6 +15109,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="579.12" y1="-50.8" x2="579.12" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="579.12" y1="-53.34" x2="581.66" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="581.66" y="-53.34"/>
+<pinref part="SD_BYP" gate="G$1" pin="2"/>
+<wire x1="538.48" y1="-60.96" x2="584.2" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="-60.96" x2="584.2" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="1" pin="CD1"/>
@@ -15592,6 +15597,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="J1" gate="1" pin="VCC"/>
 <wire x1="566.42" y1="-30.48" x2="553.72" y2="-30.48" width="0.1524" layer="91"/>
 <label x="553.72" y="-30.48" size="1.778" layer="95"/>
+<pinref part="SD_BYP" gate="G$1" pin="1"/>
+<wire x1="538.48" y1="-53.34" x2="538.48" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="538.48" y1="-30.48" x2="553.72" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
