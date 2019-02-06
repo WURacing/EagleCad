@@ -3093,14 +3093,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED30" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
 <part name="LED31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
 <part name="LED32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED41" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED42" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED43" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED44" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED45" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED46" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED47" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
-<part name="LED48" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="POLAR" package3d_urn="urn:adsk.eagle:package:38040/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
@@ -3110,6 +3102,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
+<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="68OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1"/>
+<part name="LED33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED37" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED38" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED39" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
+<part name="LED40" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:6240538/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3148,14 +3150,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LED30" gate="G$1" x="109.22" y="60.96" rot="R90"/>
 <instance part="LED31" gate="G$1" x="116.84" y="60.96" rot="R90"/>
 <instance part="LED32" gate="G$1" x="124.46" y="60.96" rot="R90"/>
-<instance part="LED41" gate="G$1" x="132.08" y="132.08" rot="R90"/>
-<instance part="LED42" gate="G$1" x="132.08" y="121.92" rot="R90"/>
-<instance part="LED43" gate="G$1" x="132.08" y="111.76" rot="R90"/>
-<instance part="LED44" gate="G$1" x="132.08" y="101.6" rot="R90"/>
-<instance part="LED45" gate="G$1" x="132.08" y="91.44" rot="R90"/>
-<instance part="LED46" gate="G$1" x="132.08" y="81.28" rot="R90"/>
-<instance part="LED47" gate="G$1" x="132.08" y="71.12" rot="R90"/>
-<instance part="LED48" gate="G$1" x="132.08" y="60.96" rot="R90"/>
 <instance part="J2" gate="G$1" x="22.86" y="73.66"/>
 <instance part="R1" gate="G$1" x="93.98" y="132.08"/>
 <instance part="R2" gate="G$1" x="93.98" y="121.92"/>
@@ -3165,6 +3159,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R6" gate="G$1" x="93.98" y="81.28"/>
 <instance part="R7" gate="G$1" x="93.98" y="71.12"/>
 <instance part="R8" gate="G$1" x="93.98" y="60.96"/>
+<instance part="R9" gate="G$1" x="93.98" y="50.8"/>
+<instance part="R10" gate="G$1" x="93.98" y="40.64"/>
+<instance part="LED33" gate="G$1" x="101.6" y="50.8" rot="R90"/>
+<instance part="LED34" gate="G$1" x="109.22" y="50.8" rot="R90"/>
+<instance part="LED35" gate="G$1" x="116.84" y="50.8" rot="R90"/>
+<instance part="LED36" gate="G$1" x="124.46" y="50.8" rot="R90"/>
+<instance part="LED37" gate="G$1" x="101.6" y="40.64" rot="R90"/>
+<instance part="LED38" gate="G$1" x="109.22" y="40.64" rot="R90"/>
+<instance part="LED39" gate="G$1" x="116.84" y="40.64" rot="R90"/>
+<instance part="LED40" gate="G$1" x="124.46" y="40.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3194,6 +3198,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R7" gate="G$1" pin="1"/>
 <junction x="88.9" y="71.12"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<junction x="88.9" y="60.96"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="50.8" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<junction x="88.9" y="50.8"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -3213,19 +3223,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="137.16" y1="71.12" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="81.28" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="147.32" y="86.36" size="1.778" layer="95"/>
-<pinref part="LED41" gate="G$1" pin="C"/>
-<pinref part="LED42" gate="G$1" pin="C"/>
-<junction x="137.16" y="121.92"/>
-<pinref part="LED43" gate="G$1" pin="C"/>
-<junction x="137.16" y="111.76"/>
-<pinref part="LED44" gate="G$1" pin="C"/>
-<junction x="137.16" y="101.6"/>
-<pinref part="LED45" gate="G$1" pin="C"/>
-<junction x="137.16" y="91.44"/>
-<pinref part="LED46" gate="G$1" pin="C"/>
-<pinref part="LED47" gate="G$1" pin="C"/>
+<pinref part="LED40" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="40.64" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="LED36" gate="G$1" pin="C"/>
+<wire x1="137.16" y1="50.8" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<junction x="137.16" y="50.8"/>
+<pinref part="LED32" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<junction x="137.16" y="60.96"/>
+<pinref part="LED28" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="137.16" y="71.12"/>
-<pinref part="LED48" gate="G$1" pin="C"/>
+<pinref part="LED24" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="LED20" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<junction x="137.16" y="91.44"/>
+<pinref part="LED16" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<junction x="137.16" y="101.6"/>
+<pinref part="LED12" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="111.76" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
+<junction x="137.16" y="111.76"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<junction x="137.16" y="121.92"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="129.54" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -3378,54 +3404,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LED32" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<pinref part="LED41" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="LED8" gate="G$1" pin="C"/>
-<pinref part="LED42" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="LED12" gate="G$1" pin="C"/>
-<pinref part="LED43" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="LED16" gate="G$1" pin="C"/>
-<pinref part="LED44" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="LED20" gate="G$1" pin="C"/>
-<pinref part="LED45" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="LED24" gate="G$1" pin="C"/>
-<pinref part="LED46" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="LED28" gate="G$1" pin="C"/>
-<pinref part="LED47" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="LED32" gate="G$1" pin="C"/>
-<pinref part="LED48" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
@@ -3472,6 +3450,54 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="LED29" gate="G$1" pin="A"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="LED33" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="LED33" gate="G$1" pin="C"/>
+<pinref part="LED34" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="LED34" gate="G$1" pin="C"/>
+<pinref part="LED35" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="LED35" gate="G$1" pin="C"/>
+<pinref part="LED36" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="LED37" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="LED37" gate="G$1" pin="C"/>
+<pinref part="LED38" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="LED38" gate="G$1" pin="C"/>
+<pinref part="LED39" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="LED39" gate="G$1" pin="C"/>
+<pinref part="LED40" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
