@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -366,9 +366,6 @@ This holder fits 20mm Lithium coin cell batteries and holds the battery in place
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_20MM_4LEGS"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -409,9 +406,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -505,9 +499,6 @@ Width: 0.15"
 Example device(s):
 MCP2551
 </description>
-<packageinstances>
-<packageinstance name="SO08"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -794,9 +785,6 @@ Datasheet referenced for footprint
 Example device(s):
 MICRO-SD_CARD_SOCKET
 </description>
-<packageinstances>
-<packageinstance name="MICRO-SD-SOCKET"/>
-</packageinstances>
 </package3d>
 <package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:38238/1" type="box" library_version="1">
 <description>USB - microB SMD
@@ -807,9 +795,6 @@ Datasheet referenced for footprint
 Example device(s):
 USB_MICRO-B
 </description>
-<packageinstances>
-<packageinstance name="USB-B-MICRO-SMD"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -840,9 +825,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <package3d name="LED5MM" urn="urn:adsk.eagle:package:15799/2" type="model" library_version="2">
 <description>LED
 5 mm, round</description>
-<packageinstances>
-<packageinstance name="LED5MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -883,9 +865,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -989,18 +968,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="CRYSTAL-SMD-5X3.2-4PAD" urn="urn:adsk.eagle:package:37518/1" type="box" library_version="1">
 <description>5x3.2mm SMD Crystal
 Example: 16MHz SMD Crystal (Datasheet)</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-SMD-5X3.2-4PAD"/>
-</packageinstances>
 </package3d>
 <package3d name="CRYSTAL-PTH-2X6-CYL" urn="urn:adsk.eagle:package:37514/1" type="box" library_version="1">
 <description>2x6mm Cylindrical Can (Radial) PTH Crystal
 
 Example product: 32kHz crystal
 Example datasheet (ECS-2X6)</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-PTH-2X6-CYL"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -2157,9 +2130,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <packages3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -2215,9 +2185,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -2230,6 +2197,8 @@ Datasheet (B3F-1000)</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="THICC" width="0.4064" drill="0">
+</class>
+<class number="2" name="THIC" width="0.2794" drill="0">
 </class>
 </classes>
 <designrules name="oshpark-2layer">
@@ -2302,14 +2271,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2414,8 +2379,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="3.3V 500mA" x="55.88" y="-39.37" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Microchip Technology" x="55.88" y="-39.37" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MCP1825S-3302E/DB" x="55.88" y="-39.37" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.08" y="15.24" size="0.7" layer="51" align="center"/>
 <attribute name="NAME" x="1.27" y="11.43" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="5.08" y="15.24" size="0.7" layer="51" align="center"/>
 <attribute name="OC_MOUSER" value="579-MCP1825S-3302EDB" x="55.88" y="-39.37" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOT-223-3" x="55.88" y="-39.37" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Voltage regulator" x="55.88" y="-39.37" size="1.778" layer="27" display="off"/>
@@ -2425,8 +2390,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="MKL04Z32VLC4 (preprogrammed)" x="-20.32" y="-1.27" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="PJRC" x="-20.32" y="-1.27" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="IC_MKL04Z32_TQFP32" x="-20.32" y="-1.27" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="27.94" y="34.29" size="0.7" layer="52" rot="MR90" align="center"/>
 <attribute name="NAME" x="31.115" y="39.77" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="27.94" y="34.29" size="0.7" layer="52" rot="MR90" align="center"/>
 <attribute name="PACKAGE" value="LQFP-32" x="-20.32" y="-1.27" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TYPE" value="Microcontroller" x="-20.32" y="-1.27" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -2575,8 +2540,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="600R / 100MHz" x="-63.5" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="-63.5" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value=" BLM18AG601SN1D" x="-63.5" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.16" y="17.78" size="0.7" layer="51" rot="R270" align="center"/>
 <attribute name="NAME" x="11.049" y="19.685" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="10.16" y="17.78" size="0.7" layer="51" rot="R270" align="center"/>
 <attribute name="OC_MOUSER" value="81-BLM11A601S" x="-63.5" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="0603" x="-63.5" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TYPE" value="Ferrite" x="-63.5" y="-20.32" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2611,8 +2576,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="600R / 100MHz" x="97.79" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="97.79" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value=" BLM18AG601SN1D" x="97.79" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.13" y="12.7" size="0.7" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="23.241" y="10.795" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="24.13" y="12.7" size="0.7" layer="51" rot="R90" align="center"/>
 <attribute name="OC_MOUSER" value="81-BLM11A601S" x="97.79" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="97.79" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Ferrite" x="97.79" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2637,8 +2602,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="Dual Schottky, common cat" x="54.61" y="-53.34" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="NXP Semiconductors" x="54.61" y="-53.34" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="BAT54C,215" x="54.61" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.7" y="10.16" size="0.7" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="10.795" y="12.065" size="0.889" layer="25" ratio="11"/>
+<attribute name="NAME" x="12.7" y="10.16" size="0.7" layer="51" rot="R90" align="center"/>
 <attribute name="OC_MOUSER" value="771-BAT54C-T/R" x="54.61" y="-53.34" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOT-23" x="54.61" y="-53.34" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Diode" x="54.61" y="-53.34" size="1.778" layer="27" display="off"/>
@@ -2698,7 +2663,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 </elements>
 <signals>
-<signal name="3.3V">
+<signal name="3.3V" class="2">
 <contactref element="CPU" pad="56"/>
 <contactref element="CPU" pad="70"/>
 <contactref element="CPU" pad="135"/>
@@ -2742,6 +2707,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.47" y1="8.89" x2="7.366" y2="12.065" width="0" layer="19" extent="1-1"/>
 <wire x1="13.589" y1="9.144" x2="8.47" y2="8.89" width="0" layer="19" extent="1-1"/>
 <wire x1="5.61" y1="32.46" x2="10.16" y2="18.542" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="27.94" y="34.29"/>
+<vertex x="43.18" y="34.29"/>
+<vertex x="43.18" y="19.05"/>
+<vertex x="27.94" y="19.05"/>
+</polygon>
 </signal>
 <signal name="GND">
 <contactref element="C2" pad="2"/>
@@ -3147,13 +3118,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="43.68" y1="9.12" x2="41.06" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>

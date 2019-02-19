@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1499,32 +1499,20 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <package3d name="CRYSTAL-SMD-5X3.2-4PAD" urn="urn:adsk.eagle:package:37518/1" type="box" library_version="1">
 <description>5x3.2mm SMD Crystal
 Example: 16MHz SMD Crystal (Datasheet)</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-SMD-5X3.2-4PAD"/>
-</packageinstances>
 </package3d>
 <package3d name="HC49US" urn="urn:adsk.eagle:package:37515/1" type="box" library_version="1">
 <description>HC49/US 11.6x4.6mm PTH Crystal
 Example Datasheet</description>
-<packageinstances>
-<packageinstance name="HC49US"/>
-</packageinstances>
 </package3d>
 <package3d name="CRYSTAL-PTH-2X6-CYL" urn="urn:adsk.eagle:package:37514/1" type="box" library_version="1">
 <description>2x6mm Cylindrical Can (Radial) PTH Crystal
 
 Example product: 32kHz crystal
 Example datasheet (ECS-2X6)</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-PTH-2X6-CYL"/>
-</packageinstances>
 </package3d>
 <package3d name="CRYSTAL-SMD-2X6-CYL" urn="urn:adsk.eagle:package:37516/1" type="box" library_version="1">
 <description>6.0x2.0mm Cylindrical Can (Radial) SMD Crystal
 Example</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-SMD-2X6-CYL"/>
-</packageinstances>
 </package3d>
 <package3d name="CRYSTAL-PTH-2X6-CYL-KIT" urn="urn:adsk.eagle:package:37519/1" type="box" library_version="1">
 <description>2x6mm Cylindrical Can (Radial) PTH Crystal
@@ -1533,24 +1521,15 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 
 Example product: 32kHz crystal
 Example datasheet (ECS-2X6)</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-PTH-2X6-CYL-KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="CRYSTAL-SMD-3.2X1.5MM" urn="urn:adsk.eagle:package:37548/1" type="box" library_version="1">
 <description>3.2 x 1.5mm SMD Crystal Package
 Example: SX-32S</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-SMD-3.2X1.5MM"/>
-</packageinstances>
 </package3d>
 <package3d name="CRYSTAL-SMD-MC-146" urn="urn:adsk.eagle:package:37517/1" type="box" library_version="1">
 <description>7x1.5mm MC-146 Flat Lead SMD Crystal
 
 Example Datasheet</description>
-<packageinstances>
-<packageinstance name="CRYSTAL-SMD-MC-146"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1848,45 +1827,27 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
 </package3d>
 <package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box" library_version="1">
 <description>Generic 2012 (0805) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
 </package3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box" library_version="1">
 <description>Generic 3216 (1206) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
 </package3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
 <description>Generic 1005 (0402) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0402"/>
-</packageinstances>
 </package3d>
 <package3d name="CAP-PTH-SMALL-KIT" urn="urn:adsk.eagle:package:37428/1" type="box" library_version="1">
 <description>CAP-PTH-SMALL-KIT
 Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).
 
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<packageinstances>
-<packageinstance name="CAP-PTH-SMALL-KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="CAP-PTH-10MM" urn="urn:adsk.eagle:package:37419/1" type="box" library_version="1">
 <description>2 PTH spaced 10mm apart</description>
-<packageinstances>
-<packageinstance name="CAP-PTH-10MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2251,46 +2212,28 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
 </package3d>
 <package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/1" type="box" library_version="1">
 <description>AXIAL-0.3
 Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</description>
-<packageinstances>
-<packageinstance name="AXIAL-0.3"/>
-</packageinstances>
 </package3d>
 <package3d name="AXIAL-0.3EZ" urn="urn:adsk.eagle:package:39655/1" type="box" library_version="1">
 <description>This is the "EZ" version of the standard .3" spaced resistor package.
 It has a reduced top mask to make it harder to install upside-down.</description>
-<packageinstances>
-<packageinstance name="AXIAL-0.3EZ"/>
-</packageinstances>
 </package3d>
 <package3d name="AXIAL-0.1" urn="urn:adsk.eagle:package:39656/1" type="box" library_version="1">
 <description>AXIAL-0.1
 Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.</description>
-<packageinstances>
-<packageinstance name="AXIAL-0.1"/>
-</packageinstances>
 </package3d>
 <package3d name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:package:39653/1" type="box" library_version="1">
 <description>AXIAL-0.1-KIT
 Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.
 Warning: This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<packageinstances>
-<packageinstance name="AXIAL-0.1-KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="AXIAL-0.3-KIT" urn="urn:adsk.eagle:package:39661/1" type="box" library_version="1">
 <description>AXIAL-0.3-KIT
 Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.
 Warning: This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<packageinstances>
-<packageinstance name="AXIAL-0.3-KIT"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -3121,9 +3064,6 @@ Datasheet referenced for footprint
 Example device(s):
 USB_MICRO-B
 </description>
-<packageinstances>
-<packageinstance name="USB-B-MICRO-SMD"/>
-</packageinstances>
 </package3d>
 <package3d name="MICRO-SD-SOCKET" urn="urn:adsk.eagle:package:38283/1" type="box" library_version="1">
 <description>microSD Socket SMD
@@ -3136,9 +3076,6 @@ Datasheet referenced for footprint
 Example device(s):
 MICRO-SD_CARD_SOCKET
 </description>
-<packageinstances>
-<packageinstance name="MICRO-SD-SOCKET"/>
-</packageinstances>
 </package3d>
 <package3d name="USB_MICROB_VERTICAL" urn="urn:adsk.eagle:package:38236/1" type="box" library_version="1">
 <description>USB Micro-B Plug Connector
@@ -3151,9 +3088,6 @@ Datasheet referenced for footprint
 Example device(s):
 USB_Micro-B
 </description>
-<packageinstances>
-<packageinstance name="USB_MICROB_VERTICAL"/>
-</packageinstances>
 </package3d>
 <package3d name="USB-MICROB" urn="urn:adsk.eagle:package:38240/1" type="box" library_version="1">
 <description>USB Type microUSB Connector-No Bossed Pins
@@ -3163,9 +3097,6 @@ Pin count:5 pins, 4 shield connections
 Example device(s):
 USB_Micro-B
 </description>
-<packageinstances>
-<packageinstance name="USB-MICROB"/>
-</packageinstances>
 </package3d>
 <package3d name="USB-B-MICRO-SMD_RED_PASTE" urn="urn:adsk.eagle:package:38239/1" type="box" library_version="1">
 <description>USB - microB SMD Reduced Paste
@@ -3177,14 +3108,8 @@ Datasheet referenced for footprint
 Example device(s):
 USB_MICRO-B
 </description>
-<packageinstances>
-<packageinstance name="USB-B-MICRO-SMD_RED_PASTE"/>
-</packageinstances>
 </package3d>
 <package3d name="USB-MICROB-PTH" urn="urn:adsk.eagle:package:38241/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="USB-MICROB-PTH"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -3911,9 +3836,6 @@ PCB mount clips properly spaced to hold a AAA battery.
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTERY-AAA"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTERY-AA" urn="urn:adsk.eagle:package:37211/1" type="box" library_version="1">
 <description>AA Battery Clips
@@ -3921,9 +3843,6 @@ PCB mount clips properly spaced to hold a AA battery
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTERY-AA"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_12MM_PTH" urn="urn:adsk.eagle:package:37213/1" type="box" library_version="1">
 <description>12mm Coin Cell Battery (CR1225) Holder - PTH
@@ -3931,18 +3850,12 @@ This is a through hole 12mm coin cell battery holder. Holds battery in place wit
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_12MM_PTH"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_20MM" urn="urn:adsk.eagle:package:37215/1" type="box" library_version="1">
 <description>20mm Coin Cell Battery (CR2032) Holder - SMD (Single Pad)
 Part number: CR2032-THM
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_20MM"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCOM_20MM_PTH" urn="urn:adsk.eagle:package:37214/1" type="box" library_version="1">
 <description>20mm (CR2032) Coin Cell Battery Holder - PTH
@@ -3950,9 +3863,6 @@ Basic 20mm coin cell holder. Posts can be inserted into 0.1" perf board! Holds t
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCOM_20MM_PTH"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_24.5MM_PTH" urn="urn:adsk.eagle:package:37222/1" type="box" library_version="1">
 <description>24.5mm Coin Cell Battery (CR2450) Holder - PTH
@@ -3960,9 +3870,6 @@ Through hole 24.5 mm coin cell holder. Holds battery in place with friction. Met
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_24.5MM_PTH"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_12MM" urn="urn:adsk.eagle:package:37216/1" type="box" library_version="1">
 <description>12mm Coin Cell (CR1225) Battery Holder - SMD
@@ -3970,9 +3877,6 @@ Holds battery in place with friction. The metal housing connects to the positive
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_12MM"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_20MM_4LEGS" urn="urn:adsk.eagle:package:37217/1" type="box" library_version="1">
 <description>20mm Coin Cell Battery (CR2032) Holder - SMD (Dual Pad)
@@ -3980,9 +3884,6 @@ This holder fits 20mm Lithium coin cell batteries and holds the battery in place
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_20MM_4LEGS"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTERY-AA-KIT" urn="urn:adsk.eagle:package:37218/1" type="box" library_version="1">
 <description>AA Battery Clips (KIT Variant)
@@ -3991,18 +3892,12 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTERY-AA-KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_9V" urn="urn:adsk.eagle:package:37219/1" type="box" library_version="1">
 <description>PCMOUNT 9V Battery Holder
 Datasheet (MPD BC9VPC)
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_9V"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON_20MM_4LEGS_OVERPASTE" urn="urn:adsk.eagle:package:37220/1" type="box" library_version="1">
 <description>20mm Coin Cell Battery (CR2032) Holder - SMD (Dual Pad) (Overpaste on pads)
@@ -4010,9 +3905,6 @@ This holder fits 20mm Lithium coin cell batteries and holds the battery in place
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTCON_20MM_4LEGS_OVERPASTE"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTERY-AAA-KIT" urn="urn:adsk.eagle:package:37226/1" type="box" library_version="1">
 <description>AAA Battery Clips (KIT Variant)
@@ -4021,9 +3913,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTERY-AAA-KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTERY_18650-HOLDER" urn="urn:adsk.eagle:package:37227/1" type="box" library_version="1">
 <description>18650 Lithium Ion Cell Battery Holders
@@ -4031,15 +3920,9 @@ PCB mount clips properly spaced to hold a 18650 Lithium Ion Cell battery.
 Datasheet
 Devices Using
 BATTERY</description>
-<packageinstances>
-<packageinstance name="BATTERY_18650-HOLDER"/>
-</packageinstances>
 </package3d>
 <package3d name="BATTCON-6.8MM" urn="urn:adsk.eagle:package:37221/1" type="box" library_version="1">
 <description>Part#: MS621FE-FL11E</description>
-<packageinstances>
-<packageinstance name="BATTCON-6.8MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -4366,9 +4249,6 @@ Width: 0.15"
 Example device(s):
 MCP2551
 </description>
-<packageinstances>
-<packageinstance name="SO08"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -5550,205 +5430,121 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <package3d name="1206" urn="urn:adsk.eagle:package:15796/1" type="box" library_version="2">
 <description>CHICAGO MINIATURE LAMP, INC.
 7022X Series SMT LEDs 1206 Package Size</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
 </package3d>
 <package3d name="LD260" urn="urn:adsk.eagle:package:15794/1" type="box" library_version="2">
 <description>LED
 5 mm, square, Siemens</description>
-<packageinstances>
-<packageinstance name="LD260"/>
-</packageinstances>
 </package3d>
 <package3d name="LED2X5" urn="urn:adsk.eagle:package:15800/1" type="box" library_version="2">
 <description>LED
 2 x 5 mm, rectangle</description>
-<packageinstances>
-<packageinstance name="LED2X5"/>
-</packageinstances>
 </package3d>
 <package3d name="LED3MM" urn="urn:adsk.eagle:package:15797/1" type="box" library_version="2">
 <description>LED
 3 mm, round</description>
-<packageinstances>
-<packageinstance name="LED3MM"/>
-</packageinstances>
 </package3d>
 <package3d name="LED5MM" urn="urn:adsk.eagle:package:15799/2" type="model" library_version="2">
 <description>LED
 5 mm, round</description>
-<packageinstances>
-<packageinstance name="LED5MM"/>
-</packageinstances>
 </package3d>
 <package3d name="LSU260" urn="urn:adsk.eagle:package:15805/1" type="box" library_version="2">
 <description>LED
 1 mm, round, Siemens</description>
-<packageinstances>
-<packageinstance name="LSU260"/>
-</packageinstances>
 </package3d>
 <package3d name="LZR181" urn="urn:adsk.eagle:package:15808/1" type="box" library_version="2">
 <description>LED BLOCK
 1 LED, Siemens</description>
-<packageinstances>
-<packageinstance name="LZR181"/>
-</packageinstances>
 </package3d>
 <package3d name="Q62902-B152" urn="urn:adsk.eagle:package:15803/1" type="box" library_version="2">
 <description>LED HOLDER
 Siemens</description>
-<packageinstances>
-<packageinstance name="Q62902-B152"/>
-</packageinstances>
 </package3d>
 <package3d name="Q62902-B153" urn="urn:adsk.eagle:package:15804/1" type="box" library_version="2">
 <description>LED HOLDER
 Siemens</description>
-<packageinstances>
-<packageinstance name="Q62902-B153"/>
-</packageinstances>
 </package3d>
 <package3d name="Q62902-B155" urn="urn:adsk.eagle:package:15807/1" type="box" library_version="2">
 <description>LED HOLDER
 Siemens</description>
-<packageinstances>
-<packageinstance name="Q62902-B155"/>
-</packageinstances>
 </package3d>
 <package3d name="Q62902-B156" urn="urn:adsk.eagle:package:15806/1" type="box" library_version="2">
 <description>LED HOLDER
 Siemens</description>
-<packageinstances>
-<packageinstance name="Q62902-B156"/>
-</packageinstances>
 </package3d>
 <package3d name="SFH480" urn="urn:adsk.eagle:package:15809/1" type="box" library_version="2">
 <description>IR LED
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking
 Inifineon</description>
-<packageinstances>
-<packageinstance name="SFH480"/>
-</packageinstances>
 </package3d>
 <package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" type="box" library_version="2">
 <description>IR LED
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking
 Inifineon</description>
-<packageinstances>
-<packageinstance name="SFH482"/>
-</packageinstances>
 </package3d>
 <package3d name="U57X32" urn="urn:adsk.eagle:package:15789/1" type="box" library_version="2">
 <description>LED
 rectangle, 5.7 x 3.2 mm</description>
-<packageinstances>
-<packageinstance name="U57X32"/>
-</packageinstances>
 </package3d>
 <package3d name="IRL80A" urn="urn:adsk.eagle:package:15810/1" type="box" library_version="2">
 <description>IR LED
 IR transmitter Siemens</description>
-<packageinstances>
-<packageinstance name="IRL80A"/>
-</packageinstances>
 </package3d>
 <package3d name="P-LCC-2" urn="urn:adsk.eagle:package:15817/1" type="box" library_version="2">
 <description>TOPLED® High-optical Power LED (HOP)
 Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
-<packageinstances>
-<packageinstance name="P-LCC-2"/>
-</packageinstances>
 </package3d>
 <package3d name="OSRAM-MINI-TOP-LED" urn="urn:adsk.eagle:package:15811/1" type="box" library_version="2">
 <description>BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED
 Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
-<packageinstances>
-<packageinstance name="OSRAM-MINI-TOP-LED"/>
-</packageinstances>
 </package3d>
 <package3d name="OSRAM-SIDELED" urn="urn:adsk.eagle:package:15812/1" type="box" library_version="2">
 <description>Super SIDELED® High-Current LED
 LG A672, LP A672 
 Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
-<packageinstances>
-<packageinstance name="OSRAM-SIDELED"/>
-</packageinstances>
 </package3d>
 <package3d name="SMART-LED" urn="urn:adsk.eagle:package:15814/1" type="box" library_version="2">
 <description>SmartLEDTM Hyper-Bright LED
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
-<packageinstances>
-<packageinstance name="SMART-LED"/>
-</packageinstances>
 </package3d>
 <package3d name="P-LCC-2-TOPLED-RG" urn="urn:adsk.eagle:package:15813/1" type="box" library_version="2">
 <description>Hyper TOPLED® RG Hyper-Bright LED
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
-<packageinstances>
-<packageinstance name="P-LCC-2-TOPLED-RG"/>
-</packageinstances>
 </package3d>
 <package3d name="MICRO-SIDELED" urn="urn:adsk.eagle:package:15815/1" type="box" library_version="2">
 <description>Hyper Micro SIDELED®
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
-<packageinstances>
-<packageinstance name="MICRO-SIDELED"/>
-</packageinstances>
 </package3d>
 <package3d name="P-LCC-4" urn="urn:adsk.eagle:package:15816/1" type="box" library_version="2">
 <description>Power TOPLED®
 Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
-<packageinstances>
-<packageinstance name="P-LCC-4"/>
-</packageinstances>
 </package3d>
 <package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model" library_version="2">
 <description>Hyper CHIPLED Hyper-Bright LED
 LB Q993
 Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
-<packageinstances>
-<packageinstance name="CHIP-LED0603"/>
-</packageinstances>
 </package3d>
 <package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model" library_version="2">
 <description>Hyper CHIPLED Hyper-Bright LED
 LB R99A
 Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<packageinstances>
-<packageinstance name="CHIP-LED0805"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI-TOPLED-SANTANA" urn="urn:adsk.eagle:package:15820/1" type="box" library_version="2">
 <description>Mini TOPLED Santana®
 Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
-<packageinstances>
-<packageinstance name="MINI-TOPLED-SANTANA"/>
-</packageinstances>
 </package3d>
 <package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:15821/2" type="model" library_version="2">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED_0805"/>
-</packageinstances>
 </package3d>
 <package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:15823/2" type="model" library_version="2">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED_1206"/>
-</packageinstances>
 </package3d>
 <package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model" library_version="2">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED_0603"/>
-</packageinstances>
 </package3d>
 <package3d name="CHIPLED-0603-TTW" urn="urn:adsk.eagle:package:15824/1" type="box" library_version="2">
 <description>CHIPLED-0603
@@ -5756,9 +5552,6 @@ Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603
 Package able to withstand TTW-soldering heat
 Package suitable for TTW-soldering
 Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED-0603-TTW"/>
-</packageinstances>
 </package3d>
 <package3d name="SMARTLED-TTW" urn="urn:adsk.eagle:package:15825/1" type="box" library_version="2">
 <description>SmartLED TTW
@@ -5766,44 +5559,26 @@ Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603
 Package able to withstand TTW-soldering heat
 Package suitable for TTW-soldering
 Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
-<packageinstances>
-<packageinstance name="SMARTLED-TTW"/>
-</packageinstances>
 </package3d>
 <package3d name="LUMILED+" urn="urn:adsk.eagle:package:15826/1" type="box" library_version="2">
 <description>Lumileds Lighting. LUXEON® with cool pad
 Source: K2.pdf</description>
-<packageinstances>
-<packageinstance name="LUMILED+"/>
-</packageinstances>
 </package3d>
 <package3d name="LUMILED" urn="urn:adsk.eagle:package:15827/1" type="box" library_version="2">
 <description>Lumileds Lighting. LUXEON® without cool pad
 Source: K2.pdf</description>
-<packageinstances>
-<packageinstance name="LUMILED"/>
-</packageinstances>
 </package3d>
 <package3d name="LED10MM" urn="urn:adsk.eagle:package:15828/1" type="box" library_version="2">
 <description>LED
 10 mm, round</description>
-<packageinstances>
-<packageinstance name="LED10MM"/>
-</packageinstances>
 </package3d>
 <package3d name="KA-3528ASYC" urn="urn:adsk.eagle:package:15831/1" type="box" library_version="2">
 <description>SURFACE MOUNT LED LAMP 3.5x2.8mm
 Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1)</description>
-<packageinstances>
-<packageinstance name="KA-3528ASYC"/>
-</packageinstances>
 </package3d>
 <package3d name="SML0805" urn="urn:adsk.eagle:package:15830/1" type="box" library_version="2">
 <description>SML0805-2CW-TR (0805 PROFILE) COOL WHITE
 Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
-<packageinstances>
-<packageinstance name="SML0805"/>
-</packageinstances>
 </package3d>
 <package3d name="SML1206" urn="urn:adsk.eagle:package:15829/1" type="box" library_version="2">
 <description>SML10XXKH-TR (HIGH INTENSITY) LED
@@ -5820,9 +5595,6 @@ SML10CW1KH-TRWHITE
 
 
 Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
-<packageinstances>
-<packageinstance name="SML1206"/>
-</packageinstances>
 </package3d>
 <package3d name="SML0603" urn="urn:adsk.eagle:package:15832/1" type="box" library_version="2">
 <description>SML0603-XXX (HIGH INTENSITY) LED
@@ -5838,9 +5610,6 @@ Y3KSUPER YELLOW
 2CWWHITE
 
 Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
-<packageinstances>
-<packageinstance name="SML0603"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -9167,590 +8936,335 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:23547/2" type="box" library_version="3">
 <description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
 </package3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
 </package3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:23553/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
 </package3d>
 <package3d name="R0805W" urn="urn:adsk.eagle:package:23537/1" type="box" library_version="3">
 <description>RESISTOR wave soldering</description>
-<packageinstances>
-<packageinstance name="R0805W"/>
-</packageinstances>
 </package3d>
 <package3d name="R1206" urn="urn:adsk.eagle:package:23540/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
 </package3d>
 <package3d name="R1206W" urn="urn:adsk.eagle:package:23539/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R1206W"/>
-</packageinstances>
 </package3d>
 <package3d name="R1210" urn="urn:adsk.eagle:package:23554/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1210"/>
-</packageinstances>
 </package3d>
 <package3d name="R1210W" urn="urn:adsk.eagle:package:23541/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R1210W"/>
-</packageinstances>
 </package3d>
 <package3d name="R2010" urn="urn:adsk.eagle:package:23551/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2010"/>
-</packageinstances>
 </package3d>
 <package3d name="R2010W" urn="urn:adsk.eagle:package:23542/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R2010W"/>
-</packageinstances>
 </package3d>
 <package3d name="R2012" urn="urn:adsk.eagle:package:23543/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2012"/>
-</packageinstances>
 </package3d>
 <package3d name="R2012W" urn="urn:adsk.eagle:package:23544/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R2012W"/>
-</packageinstances>
 </package3d>
 <package3d name="R2512" urn="urn:adsk.eagle:package:23545/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2512"/>
-</packageinstances>
 </package3d>
 <package3d name="R2512W" urn="urn:adsk.eagle:package:23565/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R2512W"/>
-</packageinstances>
 </package3d>
 <package3d name="R3216" urn="urn:adsk.eagle:package:23557/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3216"/>
-</packageinstances>
 </package3d>
 <package3d name="R3216W" urn="urn:adsk.eagle:package:23548/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R3216W"/>
-</packageinstances>
 </package3d>
 <package3d name="R3225" urn="urn:adsk.eagle:package:23549/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3225"/>
-</packageinstances>
 </package3d>
 <package3d name="R3225W" urn="urn:adsk.eagle:package:23550/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R3225W"/>
-</packageinstances>
 </package3d>
 <package3d name="R5025" urn="urn:adsk.eagle:package:23552/2" type="model" library_version="3">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R5025"/>
-</packageinstances>
 </package3d>
 <package3d name="R5025W" urn="urn:adsk.eagle:package:23558/1" type="box" library_version="3">
 <description>RESISTOR
 wave soldering</description>
-<packageinstances>
-<packageinstance name="R5025W"/>
-</packageinstances>
 </package3d>
 <package3d name="R6332" urn="urn:adsk.eagle:package:23559/2" type="model" library_version="3">
 <description>RESISTOR
 Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332"/>
-</packageinstances>
 </package3d>
 <package3d name="R6332W" urn="urn:adsk.eagle:package:23560/1" type="box" library_version="3">
 <description>RESISTOR wave soldering
 Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332W"/>
-</packageinstances>
 </package3d>
 <package3d name="M0805" urn="urn:adsk.eagle:package:23556/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M0805"/>
-</packageinstances>
 </package3d>
 <package3d name="M1206" urn="urn:adsk.eagle:package:23566/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M1206"/>
-</packageinstances>
 </package3d>
 <package3d name="M1406" urn="urn:adsk.eagle:package:23569/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M1406"/>
-</packageinstances>
 </package3d>
 <package3d name="M2012" urn="urn:adsk.eagle:package:23561/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M2012"/>
-</packageinstances>
 </package3d>
 <package3d name="M2309" urn="urn:adsk.eagle:package:23562/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M2309"/>
-</packageinstances>
 </package3d>
 <package3d name="M3216" urn="urn:adsk.eagle:package:23563/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M3216"/>
-</packageinstances>
 </package3d>
 <package3d name="M3516" urn="urn:adsk.eagle:package:23573/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M3516"/>
-</packageinstances>
 </package3d>
 <package3d name="M5923" urn="urn:adsk.eagle:package:23564/1" type="box" library_version="3">
 <description>RESISTOR
 MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M5923"/>
-</packageinstances>
 </package3d>
 <package3d name="0204/5" urn="urn:adsk.eagle:package:23488/1" type="box" library_version="3">
 <description>RESISTOR
 type 0204, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0204/5"/>
-</packageinstances>
 </package3d>
 <package3d name="0204/7" urn="urn:adsk.eagle:package:23498/1" type="box" library_version="3">
 <description>RESISTOR
 type 0204, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0204/7"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/10" urn="urn:adsk.eagle:package:23491/1" type="box" library_version="3">
 <description>RESISTOR
 type 0207, grid 10 mm</description>
-<packageinstances>
-<packageinstance name="0207/10"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/12" urn="urn:adsk.eagle:package:23489/1" type="box" library_version="3">
 <description>RESISTOR
 type 0207, grid 12 mm</description>
-<packageinstances>
-<packageinstance name="0207/12"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/15" urn="urn:adsk.eagle:package:23492/1" type="box" library_version="3">
 <description>RESISTOR
 type 0207, grid 15mm</description>
-<packageinstances>
-<packageinstance name="0207/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/2V" urn="urn:adsk.eagle:package:23490/1" type="box" library_version="3">
 <description>RESISTOR
 type 0207, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="0207/2V"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/5V" urn="urn:adsk.eagle:package:23502/1" type="box" library_version="3">
 <description>RESISTOR
 type 0207, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0207/5V"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/7" urn="urn:adsk.eagle:package:23493/1" type="box" library_version="3">
 <description>RESISTOR
 type 0207, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0207/7"/>
-</packageinstances>
 </package3d>
 <package3d name="0309/10" urn="urn:adsk.eagle:package:23567/1" type="box" library_version="3">
 <description>RESISTOR
 type 0309, grid 10mm</description>
-<packageinstances>
-<packageinstance name="0309/10"/>
-</packageinstances>
 </package3d>
 <package3d name="0309/12" urn="urn:adsk.eagle:package:23571/1" type="box" library_version="3">
 <description>RESISTOR
 type 0309, grid 12.5 mm</description>
-<packageinstances>
-<packageinstance name="0309/12"/>
-</packageinstances>
 </package3d>
 <package3d name="0411/12" urn="urn:adsk.eagle:package:23578/1" type="box" library_version="3">
 <description>RESISTOR
 type 0411, grid 12.5 mm</description>
-<packageinstances>
-<packageinstance name="0411/12"/>
-</packageinstances>
 </package3d>
 <package3d name="0411/15" urn="urn:adsk.eagle:package:23568/1" type="box" library_version="3">
 <description>RESISTOR
 type 0411, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="0411/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0411V" urn="urn:adsk.eagle:package:23570/1" type="box" library_version="3">
 <description>RESISTOR
 type 0411, grid 3.81 mm</description>
-<packageinstances>
-<packageinstance name="0411V"/>
-</packageinstances>
 </package3d>
 <package3d name="0414/15" urn="urn:adsk.eagle:package:23579/1" type="box" library_version="3">
 <description>RESISTOR
 type 0414, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="0414/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0414V" urn="urn:adsk.eagle:package:23574/1" type="box" library_version="3">
 <description>RESISTOR
 type 0414, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0414V"/>
-</packageinstances>
 </package3d>
 <package3d name="0617/17" urn="urn:adsk.eagle:package:23575/1" type="box" library_version="3">
 <description>RESISTOR
 type 0617, grid 17.5 mm</description>
-<packageinstances>
-<packageinstance name="0617/17"/>
-</packageinstances>
 </package3d>
 <package3d name="0617/22" urn="urn:adsk.eagle:package:23577/1" type="box" library_version="3">
 <description>RESISTOR
 type 0617, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="0617/22"/>
-</packageinstances>
 </package3d>
 <package3d name="0617V" urn="urn:adsk.eagle:package:23576/1" type="box" library_version="3">
 <description>RESISTOR
 type 0617, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="0617V"/>
-</packageinstances>
 </package3d>
 <package3d name="0922/22" urn="urn:adsk.eagle:package:23580/1" type="box" library_version="3">
 <description>RESISTOR
 type 0922, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="0922/22"/>
-</packageinstances>
 </package3d>
 <package3d name="P0613V" urn="urn:adsk.eagle:package:23582/1" type="box" library_version="3">
 <description>RESISTOR
 type 0613, grid 5 mm</description>
-<packageinstances>
-<packageinstance name="P0613V"/>
-</packageinstances>
 </package3d>
 <package3d name="P0613/15" urn="urn:adsk.eagle:package:23581/1" type="box" library_version="3">
 <description>RESISTOR
 type 0613, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="P0613/15"/>
-</packageinstances>
 </package3d>
 <package3d name="P0817/22" urn="urn:adsk.eagle:package:23583/1" type="box" library_version="3">
 <description>RESISTOR
 type 0817, grid 22.5 mm</description>
-<packageinstances>
-<packageinstance name="P0817/22"/>
-</packageinstances>
 </package3d>
 <package3d name="P0817V" urn="urn:adsk.eagle:package:23608/1" type="box" library_version="3">
 <description>RESISTOR
 type 0817, grid 6.35 mm</description>
-<packageinstances>
-<packageinstance name="P0817V"/>
-</packageinstances>
 </package3d>
 <package3d name="V234/12" urn="urn:adsk.eagle:package:23592/1" type="box" library_version="3">
 <description>RESISTOR
 type V234, grid 12.5 mm</description>
-<packageinstances>
-<packageinstance name="V234/12"/>
-</packageinstances>
 </package3d>
 <package3d name="V235/17" urn="urn:adsk.eagle:package:23586/1" type="box" library_version="3">
 <description>RESISTOR
 type V235, grid 17.78 mm</description>
-<packageinstances>
-<packageinstance name="V235/17"/>
-</packageinstances>
 </package3d>
 <package3d name="V526-0" urn="urn:adsk.eagle:package:23590/1" type="box" library_version="3">
 <description>RESISTOR
 type V526-0, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="V526-0"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0102AX" urn="urn:adsk.eagle:package:23594/1" type="box" library_version="3">
 <description>Mini MELF 0102 Axial</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102AX"/>
-</packageinstances>
 </package3d>
 <package3d name="0922V" urn="urn:adsk.eagle:package:23589/1" type="box" library_version="3">
 <description>RESISTOR
 type 0922, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0922V"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0102R" urn="urn:adsk.eagle:package:23591/1" type="box" library_version="3">
 <description>CECC Size RC2211 Reflow Soldering
 source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102R"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0102W" urn="urn:adsk.eagle:package:23588/1" type="box" library_version="3">
 <description>CECC Size RC2211 Wave Soldering
 source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0102W"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0204R" urn="urn:adsk.eagle:package:23587/1" type="box" library_version="3">
 <description>CECC Size RC3715 Reflow Soldering
 source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0204R"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0204W" urn="urn:adsk.eagle:package:23584/1" type="box" library_version="3">
 <description>CECC Size RC3715 Wave Soldering
 source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0204W"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0207R" urn="urn:adsk.eagle:package:23585/1" type="box" library_version="3">
 <description>CECC Size RC6123 Reflow Soldering
 source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0207R"/>
-</packageinstances>
 </package3d>
 <package3d name="MINI_MELF-0207W" urn="urn:adsk.eagle:package:23597/1" type="box" library_version="3">
 <description>CECC Size RC6123 Wave Soldering
 source Beyschlag</description>
-<packageinstances>
-<packageinstance name="MINI_MELF-0207W"/>
-</packageinstances>
 </package3d>
 <package3d name="RDH/15" urn="urn:adsk.eagle:package:23595/1" type="box" library_version="3">
 <description>RESISTOR
 type RDH, grid 15 mm</description>
-<packageinstances>
-<packageinstance name="RDH/15"/>
-</packageinstances>
 </package3d>
 <package3d name="0204V" urn="urn:adsk.eagle:package:23495/1" type="box" library_version="3">
 <description>RESISTOR
 type 0204, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="0204V"/>
-</packageinstances>
 </package3d>
 <package3d name="0309V" urn="urn:adsk.eagle:package:23572/1" type="box" library_version="3">
 <description>RESISTOR
 type 0309, grid 2.5 mm</description>
-<packageinstances>
-<packageinstance name="0309V"/>
-</packageinstances>
 </package3d>
 <package3d name="R0201" urn="urn:adsk.eagle:package:23593/1" type="box" library_version="3">
 <description>RESISTOR chip
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R0201"/>
-</packageinstances>
 </package3d>
 <package3d name="VMTA55" urn="urn:adsk.eagle:package:23600/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RNC55
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VMTA55"/>
-</packageinstances>
 </package3d>
 <package3d name="VMTB60" urn="urn:adsk.eagle:package:23607/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RNC60
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VMTB60"/>
-</packageinstances>
 </package3d>
 <package3d name="VTA52" urn="urn:adsk.eagle:package:23596/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR52
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA52"/>
-</packageinstances>
 </package3d>
 <package3d name="VTA53" urn="urn:adsk.eagle:package:23603/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR53
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA53"/>
-</packageinstances>
 </package3d>
 <package3d name="VTA54" urn="urn:adsk.eagle:package:23598/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR54
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA54"/>
-</packageinstances>
 </package3d>
 <package3d name="VTA55" urn="urn:adsk.eagle:package:23606/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR55
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA55"/>
-</packageinstances>
 </package3d>
 <package3d name="VTA56" urn="urn:adsk.eagle:package:23599/1" type="box" library_version="3">
 <description>Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements
 MIL SIZE RBR56
 Source: VISHAY .. vta56.pdf</description>
-<packageinstances>
-<packageinstance name="VTA56"/>
-</packageinstances>
 </package3d>
 <package3d name="R4527" urn="urn:adsk.eagle:package:23615/1" type="box" library_version="3">
 <description>Package 4527
 Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
-<packageinstances>
-<packageinstance name="R4527"/>
-</packageinstances>
 </package3d>
 <package3d name="WSC0001" urn="urn:adsk.eagle:package:23601/1" type="box" library_version="3">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC0001"/>
-</packageinstances>
 </package3d>
 <package3d name="WSC0002" urn="urn:adsk.eagle:package:23605/1" type="box" library_version="3">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC0002"/>
-</packageinstances>
 </package3d>
 <package3d name="WSC01/2" urn="urn:adsk.eagle:package:23602/1" type="box" library_version="3">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC01/2"/>
-</packageinstances>
 </package3d>
 <package3d name="WSC2515" urn="urn:adsk.eagle:package:23604/1" type="box" library_version="3">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC2515"/>
-</packageinstances>
 </package3d>
 <package3d name="WSC4527" urn="urn:adsk.eagle:package:23611/1" type="box" library_version="3">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC4527"/>
-</packageinstances>
 </package3d>
 <package3d name="WSC6927" urn="urn:adsk.eagle:package:23610/1" type="box" library_version="3">
 <description>Wirewound Resistors, Precision Power
 Source: VISHAY wscwsn.pdf</description>
-<packageinstances>
-<packageinstance name="WSC6927"/>
-</packageinstances>
 </package3d>
 <package3d name="R1218" urn="urn:adsk.eagle:package:23614/1" type="box" library_version="3">
 <description>CRCW1218 Thick Film, Rectangular Chip Resistors
 Source: http://www.vishay.com .. dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R1218"/>
-</packageinstances>
 </package3d>
 <package3d name="1812X7R" urn="urn:adsk.eagle:package:23609/1" type="box" library_version="3">
 <description>Chip Monolithic Ceramic Capacitors Medium Voltage High Capacitance for General Use
 Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
-<packageinstances>
-<packageinstance name="1812X7R"/>
-</packageinstances>
 </package3d>
 <package3d name="R01005" urn="urn:adsk.eagle:package:23613/1" type="box" library_version="3">
-<packageinstances>
-<packageinstance name="R01005"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -10968,12 +10482,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -11378,89 +10886,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_4.5MM" urn="urn:adsk.eagle:package:40162/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.5MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_PTH_12MM" urn="urn:adsk.eagle:package:40164/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (B3F-5050)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_12MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:package:40165/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.0X3.5MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_6.2MM_TALL" urn="urn:adsk.eagle:package:40172/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (ADTSM63NVTR)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.2MM_TALL"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" urn="urn:adsk.eagle:package:40168/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - PTH, Right-angle
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_12MM" urn="urn:adsk.eagle:package:40166/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_12MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_PTH_6.0MM_KIT" urn="urn:adsk.eagle:package:40170/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
 Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM_KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:40167/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_5.2MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" urn="urn:adsk.eagle:package:40169/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, Right-angle
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_RIGHT_ANGLE"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:40176/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -11702,6 +11177,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="THICC" width="0.4064" drill="0">
+</class>
+<class number="2" name="THIC" width="0.2794" drill="0">
 </class>
 </classes>
 <parts>
@@ -12073,7 +11550,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
+<net name="3.3V" class="2">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <pinref part="CPU" gate="G$1" pin="VDD"/>
@@ -12975,12 +12452,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
