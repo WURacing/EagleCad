@@ -1159,6 +1159,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="ACCEL" pad="2"/>
 <contactref element="SENSOR" pad="3"/>
 <via x="11.049" y="12.573" extent="1-16" drill="0.35"/>
+<via x="22.987" y="12.954" extent="1-16" drill="0.35"/>
+<via x="25.527" y="13.081" extent="1-16" drill="0.35"/>
+<via x="27.813" y="14.732" extent="1-16" drill="0.35"/>
+<via x="28.448" y="13.081" extent="1-16" drill="0.35"/>
+<via x="27.94" y="17.399" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CAN1H">
 <contactref element="U2" pad="7"/>
@@ -1467,9 +1472,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U1" pad="12"/>
 <wire x1="16.11" y1="8.4074" x2="16.3766" y2="8.1408" width="0.2032" layer="1"/>
 <wire x1="16.3766" y1="8.1408" x2="16.3766" y2="7.6671875" width="0.2032" layer="1"/>
-<wire x1="16.3766" y1="7.6671875" x2="18.9637875" y2="5.08" width="0.2032" layer="1"/>
-<wire x1="29.21" y1="5.08" x2="30.48" y2="6.35" width="0.2032" layer="1"/>
-<wire x1="29.21" y1="5.08" x2="18.9637875" y2="5.08" width="0.2032" layer="1"/>
+<wire x1="16.3766" y1="7.6671875" x2="18.3287875" y2="5.715" width="0.2032" layer="1"/>
+<wire x1="29.845" y1="5.715" x2="30.48" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="29.845" y1="5.715" x2="18.3287875" y2="5.715" width="0.2032" layer="1"/>
 </signal>
 <signal name="S02">
 <contactref element="U1" pad="13"/>
