@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1450,7 +1450,7 @@ MCP2551
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="22-23-2021" library_version="2">
+<package name="22-23-2021" urn="urn:adsk.eagle:footprint:8078259/1" library_version="3">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
 <wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
@@ -1464,7 +1464,7 @@ MCP2551
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2051" library_version="2">
+<package name="22-23-2051" urn="urn:adsk.eagle:footprint:8078262/1" library_version="3">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 5 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232051_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-6.35" y1="3.175" x2="6.35" y2="3.175" width="0.254" layer="21"/>
 <wire x1="6.35" y1="3.175" x2="6.35" y2="1.27" width="0.254" layer="21"/>
@@ -1481,7 +1481,7 @@ MCP2551
 <text x="-6.35" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2041" library_version="2">
+<package name="22-23-2041" urn="urn:adsk.eagle:footprint:8078261/1" library_version="3">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
 <wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
@@ -1497,7 +1497,7 @@ MCP2551
 <text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2031" library_version="2">
+<package name="22-23-2031" urn="urn:adsk.eagle:footprint:8078260/1" library_version="3">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
 <wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
@@ -1513,21 +1513,47 @@ MCP2551
 <text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="22-23-2031" urn="urn:adsk.eagle:package:8078634/1" type="box" library_version="3">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2031"/>
+</packageinstances>
+</package3d>
+<package3d name="22-23-2041" urn="urn:adsk.eagle:package:8078635/1" type="box" library_version="3">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2041"/>
+</packageinstances>
+</package3d>
+<package3d name="22-23-2051" urn="urn:adsk.eagle:package:8078636/1" type="box" library_version="3">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 5 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232051_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2051"/>
+</packageinstances>
+</package3d>
+<package3d name="22-23-2021" urn="urn:adsk.eagle:package:8078633/1" type="box" library_version="3">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2021"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="MV" library_version="2">
+<symbol name="MV" urn="urn:adsk.eagle:symbol:8078125/1" library_version="3">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="M" library_version="2">
+<symbol name="M" urn="urn:adsk.eagle:symbol:8078124/1" library_version="3">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22-23-2021" prefix="X" library_version="2">
+<deviceset name="22-23-2021" urn="urn:adsk.eagle:component:8078938/1" prefix="X" library_version="3">
 <description>.100" (2.54mm) Center Header - 2 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="0" addlevel="always" swaplevel="1"/>
@@ -1539,6 +1565,9 @@ MCP2551
 <connect gate="-1" pin="S" pad="1"/>
 <connect gate="-2" pin="S" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -1550,7 +1579,7 @@ MCP2551
 </device>
 </devices>
 </deviceset>
-<deviceset name="22-23-2051" prefix="X" library_version="2">
+<deviceset name="22-23-2051" urn="urn:adsk.eagle:component:8078935/1" prefix="X" library_version="3">
 <description>.100" (2.54mm) Center Header - 5 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
@@ -1568,6 +1597,9 @@ MCP2551
 <connect gate="-4" pin="S" pad="4"/>
 <connect gate="-5" pin="S" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078636/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -1579,7 +1611,7 @@ MCP2551
 </device>
 </devices>
 </deviceset>
-<deviceset name="22-23-2041" prefix="X" library_version="2">
+<deviceset name="22-23-2041" urn="urn:adsk.eagle:component:8078936/1" prefix="X" library_version="3">
 <description>.100" (2.54mm) Center Header - 4 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
@@ -1595,6 +1627,9 @@ MCP2551
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078635/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -1606,7 +1641,7 @@ MCP2551
 </device>
 </devices>
 </deviceset>
-<deviceset name="22-23-2031" prefix="X" library_version="2">
+<deviceset name="22-23-2031" urn="urn:adsk.eagle:component:8078937/1" prefix="X" library_version="3">
 <description>.100" (2.54mm) Center Header - 3 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
@@ -1620,6 +1655,9 @@ MCP2551
 <connect gate="-2" pin="S" pad="2"/>
 <connect gate="-3" pin="S" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078634/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -3187,7 +3225,7 @@ LED</description>
 <part name="U2" library="SparkFun-IC-Comms" library_urn="urn:adsk.eagle:library:521" deviceset="MCP2551" device="" package3d_urn="urn:adsk.eagle:package:38723/1" value="MCP2551"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="CAN1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="CAN1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
@@ -3197,7 +3235,7 @@ LED</description>
 <part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="Sensor Input"/>
 <part name="U1" library="washuracing" deviceset="ATSAMC21E18A-AU" device=""/>
-<part name="PWR" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PWR" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FB1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="FERRITE_BEAD" device="-0603" package3d_urn="urn:adsk.eagle:package:37574/1" value="156Ω/1.8A"/>
@@ -3216,14 +3254,14 @@ LED</description>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="STATUS" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="GREEN"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="330"/>
-<part name="CAN0" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="ACCEL" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2051" device=""/>
+<part name="CAN0" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="ACCEL" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2051" device="" package3d_urn="urn:adsk.eagle:package:8078636/1"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SERCOM0" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
-<part name="SERCOM1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
-<part name="SENSOR" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="ADC" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="SERCOM0" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
+<part name="SERCOM1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
+<part name="SENSOR" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
+<part name="ADC" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.2KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="2.2k"/>
 <part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100pF"/>
@@ -3233,218 +3271,218 @@ LED</description>
 <plain>
 <text x="200.66" y="182.88" size="1.27" layer="91">CAN PHYs</text>
 <text x="208.28" y="7.62" size="5.08" layer="94">EL-05154-AA</text>
-<text x="269.24" y="7.62" size="5.08" layer="94">1</text>
+<text x="269.24" y="7.62" size="5.08" layer="94">2</text>
 <text x="177.8" y="30.48" size="2.54" layer="94">CAN Sensor Data Ingestion</text>
 </plain>
 <instances>
-<instance part="U2" gate="MCP2551" x="198.12" y="165.1">
+<instance part="U2" gate="MCP2551" x="198.12" y="165.1" smashed="yes">
 <attribute name="NAME" x="193.675" y="175.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.675" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="182.88" y="177.8">
+<instance part="SUPPLY7" gate="G$1" x="182.88" y="177.8" smashed="yes">
 <attribute name="VALUE" x="182.88" y="180.594" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND7" gate="1" x="182.88" y="157.48">
-<attribute name="VALUE" x="182.88" y="157.226" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="177.8" y="157.48" smashed="yes">
+<attribute name="VALUE" x="177.8" y="157.226" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="CAN1" gate="-1" x="246.38" y="170.18">
+<instance part="CAN1" gate="-1" x="246.38" y="170.18" smashed="yes">
 <attribute name="NAME" x="248.92" y="169.418" size="1.524" layer="95"/>
 <attribute name="VALUE" x="245.618" y="171.577" size="1.778" layer="96"/>
 </instance>
-<instance part="CAN1" gate="-2" x="246.38" y="167.64">
+<instance part="CAN1" gate="-2" x="246.38" y="167.64" smashed="yes">
 <attribute name="NAME" x="248.92" y="166.878" size="1.524" layer="95"/>
 </instance>
-<instance part="R4" gate="G$1" x="226.06" y="172.72">
+<instance part="R4" gate="G$1" x="226.06" y="172.72" smashed="yes">
 <attribute name="NAME" x="226.06" y="174.244" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="226.06" y="171.196" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="241.3" y="160.02" rot="R90">
+<instance part="R6" gate="G$1" x="241.3" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="239.776" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="242.824" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="233.68" y="160.02" rot="R90">
+<instance part="R5" gate="G$1" x="233.68" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="232.156" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="235.204" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="C10" gate="G$1" x="233.68" y="147.32">
+<instance part="C10" gate="G$1" x="233.68" y="147.32" smashed="yes">
 <attribute name="NAME" x="235.204" y="150.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="235.204" y="145.161" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C11" gate="G$1" x="241.3" y="147.32">
+<instance part="C11" gate="G$1" x="241.3" y="147.32" smashed="yes">
 <attribute name="NAME" x="242.824" y="150.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="242.824" y="145.161" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND8" gate="1" x="241.3" y="139.7">
+<instance part="GND8" gate="1" x="241.3" y="139.7" smashed="yes">
 <attribute name="VALUE" x="241.3" y="139.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C9" gate="G$1" x="177.8" y="170.18" rot="R180">
+<instance part="C9" gate="G$1" x="177.8" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.276" y="167.259" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="176.276" y="172.339" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0">
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U1" gate="G$1" x="71.12" y="144.78">
+<instance part="U1" gate="G$1" x="71.12" y="144.78" smashed="yes">
 <attribute name="NAME" x="53.34" y="175.26" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="PWR" gate="-1" x="195.58" y="55.88">
+<instance part="PWR" gate="-1" x="195.58" y="55.88" smashed="yes">
 <attribute name="NAME" x="198.12" y="55.118" size="1.524" layer="95"/>
 <attribute name="VALUE" x="194.818" y="57.277" size="1.778" layer="96"/>
 </instance>
-<instance part="PWR" gate="-2" x="195.58" y="53.34">
+<instance part="PWR" gate="-2" x="195.58" y="53.34" smashed="yes">
 <attribute name="NAME" x="198.12" y="52.578" size="1.524" layer="95"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="187.96" y="58.42">
+<instance part="SUPPLY1" gate="G$1" x="187.96" y="58.42" smashed="yes">
 <attribute name="VALUE" x="187.96" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="187.96" y="48.26">
+<instance part="GND1" gate="1" x="187.96" y="48.26" smashed="yes">
 <attribute name="VALUE" x="187.96" y="48.006" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="FB1" gate="G$1" x="20.32" y="175.26">
+<instance part="FB1" gate="G$1" x="20.32" y="175.26" smashed="yes">
 <attribute name="NAME" x="21.59" y="177.8" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="21.59" y="172.72" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="12.7" y="193.04">
+<instance part="SUPPLY2" gate="G$1" x="12.7" y="193.04" smashed="yes">
 <attribute name="VALUE" x="12.7" y="195.834" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C2" gate="G$1" x="20.32" y="157.48">
+<instance part="C2" gate="G$1" x="20.32" y="157.48" smashed="yes">
 <attribute name="NAME" x="21.844" y="160.401" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="21.844" y="155.321" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="12.7" y="157.48">
+<instance part="C1" gate="G$1" x="12.7" y="157.48" smashed="yes">
 <attribute name="NAME" x="14.224" y="160.401" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="14.224" y="155.321" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND2" gate="1" x="12.7" y="109.22">
+<instance part="GND2" gate="1" x="12.7" y="109.22" smashed="yes">
 <attribute name="VALUE" x="12.7" y="108.966" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="38.1" y="152.4">
+<instance part="C4" gate="G$1" x="38.1" y="152.4" smashed="yes">
 <attribute name="NAME" x="39.624" y="155.321" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="39.624" y="150.241" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C5" gate="G$1" x="48.26" y="152.4">
+<instance part="C5" gate="G$1" x="48.26" y="152.4" smashed="yes">
 <attribute name="NAME" x="49.784" y="155.321" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="49.784" y="150.241" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C3" gate="G$1" x="30.48" y="152.4">
+<instance part="C3" gate="G$1" x="30.48" y="152.4" smashed="yes">
 <attribute name="NAME" x="32.004" y="155.321" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="32.004" y="150.241" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="O1" gate="G$1" x="33.02" y="142.24">
+<instance part="O1" gate="G$1" x="33.02" y="142.24" smashed="yes">
 <attribute name="NAME" x="33.02" y="144.272" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="33.02" y="140.208" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="22.86" y="137.16">
+<instance part="C7" gate="G$1" x="22.86" y="137.16" smashed="yes">
 <attribute name="NAME" x="24.384" y="140.081" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="24.384" y="135.001" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C8" gate="G$1" x="40.64" y="137.16">
+<instance part="C8" gate="G$1" x="40.64" y="137.16" smashed="yes">
 <attribute name="NAME" x="42.164" y="140.081" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="42.164" y="135.001" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="PROGRAM" gate="G$1" x="76.2" y="93.98">
+<instance part="PROGRAM" gate="G$1" x="76.2" y="93.98" smashed="yes">
 <attribute name="NAME" x="63.5" y="101.854" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="63.5" y="84.074" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="55.88" y="106.68">
+<instance part="SUPPLY3" gate="G$1" x="55.88" y="106.68" smashed="yes">
 <attribute name="VALUE" x="55.88" y="109.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND3" gate="1" x="55.88" y="78.74">
+<instance part="GND3" gate="1" x="55.88" y="78.74" smashed="yes">
 <attribute name="VALUE" x="55.88" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="STATUS" gate="G$1" x="99.06" y="121.92" rot="R90">
+<instance part="STATUS" gate="G$1" x="99.06" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.252" y="123.571" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="103.632" y="123.825" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="R2" gate="G$1" x="109.22" y="114.3" rot="R90">
+<instance part="R2" gate="G$1" x="109.22" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.696" y="114.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="110.744" y="114.3" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="CAN0" gate="-1" x="246.38" y="177.8">
+<instance part="CAN0" gate="-1" x="246.38" y="177.8" smashed="yes">
 <attribute name="NAME" x="248.92" y="177.038" size="1.524" layer="95"/>
 <attribute name="VALUE" x="245.618" y="179.197" size="1.778" layer="96"/>
 </instance>
-<instance part="CAN0" gate="-2" x="246.38" y="175.26">
+<instance part="CAN0" gate="-2" x="246.38" y="175.26" smashed="yes">
 <attribute name="NAME" x="248.92" y="174.498" size="1.524" layer="95"/>
 </instance>
-<instance part="ACCEL" gate="-1" x="121.92" y="170.18">
+<instance part="ACCEL" gate="-1" x="121.92" y="170.18" smashed="yes">
 <attribute name="NAME" x="124.46" y="169.418" size="1.524" layer="95"/>
 <attribute name="VALUE" x="121.158" y="171.577" size="1.778" layer="96"/>
 </instance>
-<instance part="ACCEL" gate="-2" x="121.92" y="167.64">
+<instance part="ACCEL" gate="-2" x="121.92" y="167.64" smashed="yes">
 <attribute name="NAME" x="124.46" y="166.878" size="1.524" layer="95"/>
 </instance>
-<instance part="ACCEL" gate="-3" x="121.92" y="165.1">
+<instance part="ACCEL" gate="-3" x="121.92" y="165.1" smashed="yes">
 <attribute name="NAME" x="124.46" y="164.338" size="1.524" layer="95"/>
 </instance>
-<instance part="ACCEL" gate="-4" x="121.92" y="162.56">
+<instance part="ACCEL" gate="-4" x="121.92" y="162.56" smashed="yes">
 <attribute name="NAME" x="124.46" y="161.798" size="1.524" layer="95"/>
 </instance>
-<instance part="ACCEL" gate="-5" x="121.92" y="160.02">
+<instance part="ACCEL" gate="-5" x="121.92" y="160.02" smashed="yes">
 <attribute name="NAME" x="124.46" y="159.258" size="1.524" layer="95"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="114.3" y="190.5">
+<instance part="SUPPLY4" gate="G$1" x="114.3" y="190.5" smashed="yes">
 <attribute name="VALUE" x="114.3" y="193.294" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND4" gate="1" x="142.24" y="154.94">
+<instance part="GND4" gate="1" x="142.24" y="154.94" smashed="yes">
 <attribute name="VALUE" x="142.24" y="154.686" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SERCOM0" gate="-1" x="121.92" y="154.94">
+<instance part="SERCOM0" gate="-1" x="121.92" y="154.94" smashed="yes">
 <attribute name="NAME" x="124.46" y="154.178" size="1.524" layer="95"/>
 <attribute name="VALUE" x="121.158" y="156.337" size="1.778" layer="96"/>
 </instance>
-<instance part="SERCOM0" gate="-2" x="121.92" y="152.4">
+<instance part="SERCOM0" gate="-2" x="121.92" y="152.4" smashed="yes">
 <attribute name="NAME" x="124.46" y="151.638" size="1.524" layer="95"/>
 </instance>
-<instance part="SERCOM0" gate="-3" x="121.92" y="149.86">
+<instance part="SERCOM0" gate="-3" x="121.92" y="149.86" smashed="yes">
 <attribute name="NAME" x="124.46" y="149.098" size="1.524" layer="95"/>
 </instance>
-<instance part="SERCOM0" gate="-4" x="121.92" y="147.32">
+<instance part="SERCOM0" gate="-4" x="121.92" y="147.32" smashed="yes">
 <attribute name="NAME" x="124.46" y="146.558" size="1.524" layer="95"/>
 </instance>
-<instance part="SERCOM1" gate="-1" x="121.92" y="144.78">
+<instance part="SERCOM1" gate="-1" x="121.92" y="144.78" smashed="yes">
 <attribute name="NAME" x="124.46" y="144.018" size="1.524" layer="95"/>
 <attribute name="VALUE" x="121.158" y="146.177" size="1.778" layer="96"/>
 </instance>
-<instance part="SERCOM1" gate="-2" x="121.92" y="142.24">
+<instance part="SERCOM1" gate="-2" x="121.92" y="142.24" smashed="yes">
 <attribute name="NAME" x="124.46" y="141.478" size="1.524" layer="95"/>
 </instance>
-<instance part="SERCOM1" gate="-3" x="121.92" y="139.7">
+<instance part="SERCOM1" gate="-3" x="121.92" y="139.7" smashed="yes">
 <attribute name="NAME" x="124.46" y="138.938" size="1.524" layer="95"/>
 </instance>
-<instance part="SERCOM1" gate="-4" x="121.92" y="137.16">
+<instance part="SERCOM1" gate="-4" x="121.92" y="137.16" smashed="yes">
 <attribute name="NAME" x="124.46" y="136.398" size="1.524" layer="95"/>
 </instance>
-<instance part="SENSOR" gate="-1" x="121.92" y="180.34">
+<instance part="SENSOR" gate="-1" x="121.92" y="180.34" smashed="yes">
 <attribute name="NAME" x="124.46" y="179.578" size="1.524" layer="95"/>
 <attribute name="VALUE" x="121.158" y="181.737" size="1.778" layer="96"/>
 </instance>
-<instance part="SENSOR" gate="-2" x="121.92" y="177.8">
+<instance part="SENSOR" gate="-2" x="121.92" y="177.8" smashed="yes">
 <attribute name="NAME" x="124.46" y="177.038" size="1.524" layer="95"/>
 </instance>
-<instance part="SENSOR" gate="-3" x="121.92" y="175.26">
+<instance part="SENSOR" gate="-3" x="121.92" y="175.26" smashed="yes">
 <attribute name="NAME" x="124.46" y="174.498" size="1.524" layer="95"/>
 </instance>
-<instance part="ADC" gate="-1" x="121.92" y="187.96">
+<instance part="ADC" gate="-1" x="121.92" y="187.96" smashed="yes">
 <attribute name="NAME" x="124.46" y="187.198" size="1.524" layer="95"/>
 <attribute name="VALUE" x="121.158" y="189.357" size="1.778" layer="96"/>
 </instance>
-<instance part="ADC" gate="-2" x="121.92" y="185.42">
+<instance part="ADC" gate="-2" x="121.92" y="185.42" smashed="yes">
 <attribute name="NAME" x="124.46" y="184.658" size="1.524" layer="95"/>
 </instance>
-<instance part="R3" gate="G$1" x="83.82" y="106.68">
+<instance part="R3" gate="G$1" x="83.82" y="106.68" smashed="yes">
 <attribute name="NAME" x="83.82" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="83.82" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="35.56" y="180.34" rot="R90">
+<instance part="R1" gate="G$1" x="35.56" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.036" y="180.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="37.084" y="180.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="C6" gate="G$1" x="43.18" y="180.34">
+<instance part="C6" gate="G$1" x="43.18" y="180.34" smashed="yes">
 <attribute name="NAME" x="44.704" y="183.261" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="44.704" y="178.181" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -3453,17 +3491,6 @@ LED</description>
 </busses>
 <nets>
 <net name="GND" class="1">
-<segment>
-<pinref part="U2" gate="MCP2551" pin="VDD"/>
-<wire x1="187.96" y1="167.64" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="167.64" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="162.56" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="165.1" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="162.56" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
-<junction x="182.88" y="162.56"/>
-</segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="172.72" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
@@ -3551,6 +3578,17 @@ LED</description>
 <wire x1="111.76" y1="167.64" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
 <junction x="111.76" y="167.64"/>
+</segment>
+<segment>
+<pinref part="U2" gate="MCP2551" pin="VSS"/>
+<wire x1="187.96" y1="170.18" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="170.18" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="162.56" x2="177.8" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="177.8" y1="160.02" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
+<junction x="177.8" y="162.56"/>
 </segment>
 </net>
 <net name="CAN1H" class="0">
@@ -3683,11 +3721,11 @@ LED</description>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
-<wire x1="182.88" y1="177.8" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U2" gate="MCP2551" pin="VSS"/>
-<wire x1="182.88" y1="175.26" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="170.18" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="U2" gate="MCP2551" pin="VDD"/>
+<wire x1="187.96" y1="167.64" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="167.64" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="175.26" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="172.72" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="175.26" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
 <junction x="182.88" y="175.26"/>
@@ -3914,9 +3952,6 @@ LED</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,48.26,165.1,U$1,VDDIN,VCC,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
